@@ -1,9 +1,8 @@
 def main():
-    """
-    ########################################
-    Code Your Program here
-    ########################################
-    """
+
+    number = int(input('Enter a number: '))
+    while number < 0 or number >= 100:
+        number = int(input('Enter a number: '))
 
     print(number)
 
